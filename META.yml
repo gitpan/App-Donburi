@@ -1,5 +1,5 @@
 ---
-abstract: ~
+abstract: 'Web to IRC Gateway'
 author:
   - 'Kan Fushihara <kan dot fushihara at gmail dot com>'
 build_requires:
@@ -38,4 +38,4 @@ requires:
   parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

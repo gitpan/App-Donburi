@@ -1,7 +1,7 @@
 package App::Donburi;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 
@@ -12,7 +12,7 @@ __END__
 
 =head1 NAME
 
-Donburi - Web to IRC Gateway
+App::Donburi - Web to IRC Gateway
 
 =head1 SYNOPSIS
 
