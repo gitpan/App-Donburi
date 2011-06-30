@@ -1,0 +1,16 @@
+Makefile
+inc/
+.c
+ppport.h
+*.sw[po]
+*.bak
+*.old
+Build
+_build/
+xshelper.h
+tags
+blib
+pm_to_blib
+channel.yaml
+config.yaml
+META.yml
