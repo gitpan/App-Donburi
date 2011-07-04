@@ -4,7 +4,7 @@ use Module::Install::AuthorTests;
 name 'App-Donburi';
 all_from 'lib/App/Donburi.pm';
 install_share 'tmpl';
-install_script 'donburi';
+install_script 'bin/donburi';
 
 requires 'parent';
 requires 'Exporter' => 5.36;
@@ -21,7 +21,7 @@ requires 'Class::Load';
 requires 'JSON';
 requires 'Hash::MultiValue';
 requires 'File::ShareDir';
-
+requires 'opts';
 
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t';
 test_requires 'Test::More' => 0.96; # done_testing, subtest

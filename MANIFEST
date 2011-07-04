@@ -1,6 +1,7 @@
-.gitignore
+.shipit
+bin/donburi
 Changes
-donburi
+channel.yaml
 inc/Module/Install.pm
 inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
@@ -13,6 +14,7 @@ inc/Module/Install/Share.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/App/Donburi.pm
+lib/App/Donburi/Logger.pm
 lib/App/Donburi/Server.pm
 lib/App/Donburi/Util.pm
 lib/App/Donburi/Web/C.pm
@@ -26,6 +28,7 @@ MANIFEST			This list of files
 META.yml
 README
 t/00_compile.t
+tmpl/channel/.index.tx.swp
 tmpl/channel/index.tx
 tmpl/root/index.tx
 tmpl/root/post.tx
@@ -34,4 +37,3 @@ xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
 xt/04_dependencies.t
-xt/perlcriticrc
